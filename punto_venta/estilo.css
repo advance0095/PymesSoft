@@ -1,0 +1,311 @@
+﻿
+body{
+
+    margin-top: 40px;
+    background-image: url(img/flamingo.png) ;
+
+
+    /* Nos aseguramos que la imagen de fondo este centrada vertical y
+      horizontalmente en todo momento */
+    background-position: center center;
+    /* La imagen de fondo no se repite */
+    background-repeat: no-repeat;
+    /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+
+       la altura del contenido supere la altura de la imagen. *
+background-attachment: fixed;
+    /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+
+       del navegador */
+    background-size: cover;
+    /* Fijamos un color de fondo para que se muestre mientras se está
+
+                  cargando la imagen de fondo o si hay problemas para cargarla  */
+}
+.imagen{
+    border-color:#333;
+    background-color:#333;
+	position:absolute;
+z-index:1;
+width:300px;
+height:200px;
+top:300px;
+left:28%;
+
+border-radius:10px;
+
+   }
+
+table{
+
+	position:relative;
+
+
+}
+
+th{
+    background-color: transparent;
+
+
+}
+#mon{
+  background-color:red;
+  color:#fff;
+
+
+font-family:"courier";
+
+
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+
+}
+
+#mon:hover{
+
+    transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+}
+
+.tituloHome{
+    color: #fff;background-color: rgba(111, 21, 180, 0.1);
+    width: fit-content;
+    border-radius:10px 0px 10px 0px;
+
+    
+}
+#tablaHome{
+    background-color: transparent;
+
+}
+.panel-heading{
+
+
+}
+
+#pa1{
+
+    background-color: #ff821c;
+    color: #fff;
+    font-size: 20px;
+}
+#tab{
+
+    border-color: red;
+
+
+}
+
+#btnmesero{
+
+    background-color: #ffb336;
+    color: #fff;
+}
+
+#btnreport{
+    background-color: rgba(169, 99, 53, 0.8);
+    color: #fff;
+}
+
+#btnconf{
+
+    background-color: #1a39ca;
+    color: #fff;
+
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+
+}
+#btnconf:hover{
+    transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+
+}
+
+#tbMon{
+    background-color: rgba(238, 111, 255, 0.2);
+    color: #fff;
+    font-size: 20px;
+}
+
+#onsellContent{
+
+    color: #fff;
+
+
+
+}
+#modal{
+    color: #fff;
+    background-color: #20cc20;
+
+}
+#tbOnsell{
+    color: #fff;
+    font-size: 25px;
+}
+#cOrange{
+    background-color: rgba(255, 91, 0, 0.6);
+    width: fit-content;
+
+}
+#cBrown{
+
+    background-color: rgba(169, 99, 53, 0.8);
+    color: #fff;
+}
+#cDark{
+
+    background-color: rgba(33, 25, 43, 0.7);
+
+}
+#cRed{
+    background-color: rgba(250, 68, 151, 0.5);
+
+}
+
+#verde{
+    background-color:green;
+
+}
+#tbreport{
+
+    background-color: rgba(33, 25, 43, 0.7);
+    font-size: 20px;
+}
+#modalTitle{
+    color: #333;
+    
+}
+#textwhite{
+    color: #fff;
+
+}
+#formgroup1{
+    position:relative;
+    top: 100px;
+    left: 50%;
+    width: 30%;
+    font-size: 20px;
+
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+}
+
+#formgroup1:hover{
+    transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+
+}
+
+#btnlogin{
+
+    position:relative;
+    top: 100px;
+    left: 60%;
+    width: 30%;
+    font-size: 20px;
+    width: auto;
+
+
+}
+
+
+#btnAlert{
+
+    background-color: #ff3221;
+    color: #fff;
+    opacity: 2.0;
+
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(10px);
+
+}
+#btnAlert:hover{
+    transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px);
+
+}
+
+.notificaciones{
+    position: fixed;
+    top:7%;
+    left: 70%;
+    z-index:1;
+
+
+
+
+}
+
+#c1{
+    z-index: 1;
+    position:fixed;
+    top:1px;
+    background-color: #333;
+    left: 160px;
+    width: 40px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+color:#fff;
+background-color: rgba(33, 25, 43, 0.7);
+
+}
+
+
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th{
+ background-color: rgba(250, 68, 151, 0.5);
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th{
+ background-color: rgba(33, 25, 43, 0.7);
+
+
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li {
+
+    color: #333;
+}
